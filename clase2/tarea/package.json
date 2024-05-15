@@ -1,0 +1,19 @@
+{
+  "name": "tarea",
+  "version": "1.0.0",
+  "description": "\"node second project\"",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "learn",
+    "project",
+    "node"
+  ],
+  "author": "ferchas98",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
