@@ -90,7 +90,7 @@ app.listen(port, () => {
 // Como agreagar a un koder en thunder client
 // {
 //     "nombre": "Nan",
-//     "generacion": "33",
+//     "generacion": 33,
 //     "genero": "Mujer",
 //     "edad": 20,
 //     "activo": true
