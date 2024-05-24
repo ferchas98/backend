@@ -86,3 +86,12 @@ app.delete("/koders", (req, res) => {
 app.listen(port, () => {
   console.log(`Servidor escuchando en http://localhost:${port}`);
 });
+
+// Como agreagar a un koder en thunder client
+// {
+//     "nombre": "Nan",
+//     "generacion": "33",
+//     "genero": "Mujer",
+//     "edad": 20,
+//     "activo": true
+// }
