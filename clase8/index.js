@@ -20,7 +20,7 @@ const readDatabase = () => {
 // Función para escribir en el archivo JSON
 const writeDatabase = (data) => {
   try {
-    fs.writeFileSync("koders.json", JSON.stringify(data, null, 2));
+    fs.writeFileSync("koders.json", JSON.stringify(data));
   } catch (err) {
     console.error("Error escribiendo en la base de datos:", err);
   }
