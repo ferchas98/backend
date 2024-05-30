@@ -76,7 +76,7 @@ app.post("/koders", async (req, res) => {
   }
 });
 
-const port = PORT || 3000;
+const port = `${PORT}`;
 app.listen(port, () => {
   console.log(`Servidor corriendo en el puerto ${port}`);
 });
